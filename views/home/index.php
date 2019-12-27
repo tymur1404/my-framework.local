@@ -1,5 +1,5 @@
 <div class="container">
-<form  action="/task/create" method="POST" >
+<form  action="/home/create" method="POST" >
     <input type="hidden" id="_csrf" name="_csrf" value="<?=getToken()?>"/>
     <input type='submit'  class='btn btn-round btn-success' value='Создать'/>
 </form>

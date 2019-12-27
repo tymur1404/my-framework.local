@@ -14,6 +14,8 @@ return [
     'login/logout' => ['login/logout'],
     'login' => ['login/index'],
 
+    'home/create' => ['home/create'],
+    'home/store' => ['home/store'],
     'home' => ['home/index'],
     '' => ['home/index'],
 
